@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Great+Vibes&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* Define custom Tailwind theme fonts mapping */
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-script: "Great Vibes", cursive;
+}
+
+/* Custom Animation Utility Classes */
+@keyframes heartBeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes goldShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(2deg); }
+}
+
+@keyframes starPulse {
+  0%, 100% { opacity: 0.2; transform: scale(0.8); }
+  50% { opacity: 0.9; transform: scale(1.1); }
+}
+
+.animate-heartbeat {
+  animation: heartBeat 1.5s infinite ease-in-out;
+}
+
+.animate-float {
+  animation: float 4s infinite ease-in-out;
+}
+
+/* Premium Gold Shimmer Pattern */
+.gold-shimmer-bg {
+  background: linear-gradient(
+    135deg,
+    #121212 0%,
+    #1a1a1a 25%,
+    #2c2415 50%,
+    #1a1a1a 75%,
+    #121212 100%
+  );
+  background-size: 400% 400%;
+  animation: goldShimmer 15s ease infinite;
+}
+
+.luxury-text-shimmer {
+  background: linear-gradient(
+    to right,
+    #bf953f 0%,
+    #fcf6ba 25%,
+    #b38728 50%,
+    #fbf5b7 75%,
+    #aa771c 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.luxury-border-gold {
+  border: 1px solid transparent;
+  background-image: linear-gradient(#151515, #151515), 
+                    linear-gradient(135deg, #d4af37 0%, #aa771c 50%, #fcf6ba 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+/* Glassmorphism Styles */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-glass-panel {
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* Customizable Fonts Classes */
+.font-f-inter { font-family: var(--font-inter); }
+.font-f-playfair { font-family: var(--font-playfair); }
+.font-f-cormorant { font-family: var(--font-cormorant); }
+.font-f-grotesk { font-family: var(--font-grotesk); }
+.font-f-mono { font-family: var(--font-mono); }
+.font-f-script { font-family: var(--font-script); }
+
+/* QR Design */
+.qrcode-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 8px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}

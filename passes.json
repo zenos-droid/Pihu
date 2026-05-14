@@ -1,0 +1,108 @@
+{
+  "pihu_passes": {
+    "pass-1": {
+      "id": "pass-1",
+      "title": "Unlimited Pucchi Pass",
+      "subtitle": "One Smile = Auto Activated ❤️",
+      "description": "1. Entitles Pihu to an immediate warm and sweet kiss on the cheek, lips, or forehead on demand.\n2. Double-summoning is allowed if Pihu acts adorable or makes a cute puppy face.\n3. Valid at any hour of the night or day, no questions asked.",
+      "customQuote": "I am completely captured by your smile, my love. Every pucchi is a small promise of my endless adoring devotion.",
+      "ownerName": "Pihu",
+      "issuedBy": "Ayush",
+      "validity": "Infinite Redemption",
+      "expiryDate": "Never",
+      "templateId": "pastel",
+      "fontId": "script",
+      "iconId": "heart",
+      "totalRedemptionLimit": 0,
+      "redemptions": [],
+      "status": "Active"
+    },
+    "pass-2": {
+      "id": "pass-2",
+      "title": "Unlimited Massage Session",
+      "subtitle": "Your Comfort, My Priority ❤️",
+      "description": "1. Entitles Pihu to a professional-grade back, shoulder, or foot massage from Ayush whenever she feels tired.\n2. Complete with soothing low-fi piano chords, calming dim candlelight, and absolute tranquility.\n3. Valid for a minimum of 30 minutes, extendable up to 2 full hours.",
+      "customQuote": "To my beautiful Queen who carries so much on her shoulders. Sit back, close your eyes, and let me pamper you. You are precious.",
+      "ownerName": "Pihu",
+      "issuedBy": "Ayush",
+      "validity": "Infinite Redemption",
+      "expiryDate": "Never",
+      "templateId": "luxury",
+      "fontId": "playfair",
+      "iconId": "massage",
+      "totalRedemptionLimit": 0,
+      "redemptions": [
+        {
+          "timestamp": "2026-05-14T09:07:37.759Z",
+          "note": "lol"
+        }
+      ],
+      "status": "Active"
+    },
+    "pass-3": {
+      "id": "pass-3",
+      "title": "Queen’s Wish Pass",
+      "subtitle": "Your Wish, My Mission ❤️",
+      "description": "1. Ultimate crown authority. Ayush must say \"Yes!\" to any wish, request, command, or delicious craving.\n2. Perfect for late-night ice cream runs, sudden long drives, choosing the movie, or back-to-back pampering.\n3. Fully non-negotiable. No arguments, delay-tactics, or vetoes permitted by the servant.",
+      "customQuote": "Your wish is my immediate mission, my queen. Command your loyal servant and watch your dreams materialize.",
+      "ownerName": "Pihu",
+      "issuedBy": "Ayush",
+      "validity": "Infinite Redemption",
+      "expiryDate": "Never",
+      "templateId": "celestial",
+      "fontId": "cormorant",
+      "iconId": "crown",
+      "totalRedemptionLimit": 0,
+      "redemptions": [],
+      "status": "Active"
+    },
+    "pass-bonus": {
+      "id": "pass-bonus",
+      "title": "Bonus Unlimited Hug Pass",
+      "subtitle": "Warmth Overload, 100% Guaranteed ❤️",
+      "description": "1. Entitles Pihu to an immediate tightly squeezed physical warm hug and endless cozy cuddles.\n2. Guaranteed to dissolve 100% of negative moods, chilly hands, and stressful feelings instantly.\n3. Redeemable forever, with absolutely no exceptions, arguments, or expiration limits.",
+      "customQuote": "Between your arms is my absolute favorite place in the entire world. Let's hold each other and let everything else fade away.",
+      "ownerName": "Pihu",
+      "issuedBy": "Ayush",
+      "validity": "Infinite Hugs",
+      "expiryDate": "Never",
+      "templateId": "neon",
+      "fontId": "grotesk",
+      "iconId": "moon",
+      "totalRedemptionLimit": 0,
+      "redemptions": [],
+      "status": "Active"
+    }
+  },
+  "pihu_letter": {
+    "content": "My Dearest Pihu,\n\nEvery single day I spend loving you feels like living in a beautiful, warm dream. From the first sweet hello that started it all, to the quiet promises we share under the night sky, you have become my entire world.\n\nI created this little sanctuary just for you, a physical testament to how much you mean to me. These cards are not just digital vouchers; they are unbreakable declarations of my love. No matter where we are, how busy life gets, or what distance we face, whenever you press \"Redeem,\" know that a heart beats faster for you.\n\nYou are my comfort, my constant inspiration, my anchor, and my sweetest distraction. Thank you for choosing to hold my hand through this beautiful journey of life.\n\nI love you past the edge of the universe, and back again. Forever and always yours,\n\nAyush ❤️",
+    "lastUpdated": "2026-05-14T09:04:51.714Z"
+  },
+  "pihu_memories": [
+    {
+      "id": "m-1",
+      "imageUrl": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=600&auto=format&fit=crop",
+      "caption": "The Magic of Us 🌟",
+      "subcaption": "Every single place is beautiful when I am looking at you."
+    },
+    {
+      "id": "m-2",
+      "imageUrl": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=600&auto=format&fit=crop",
+      "caption": "Holding Hands, Always Hand in Hand 🤝",
+      "subcaption": "Against the whole universe, as long as your fingers are laced with mine."
+    },
+    {
+      "id": "m-3",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600&auto=format&fit=crop",
+      "caption": "Chasing Quiet Sunsets Together 🌅",
+      "subcaption": "Dreaming of quiet summer evenings, coffee in hand, speaking of nothing."
+    },
+    {
+      "id": "m-4",
+      "imageUrl": "https://images.unsplash.com/photo-1494972308805-463bc619b34e?q=80&w=600&auto=format&fit=crop",
+      "caption": "Our Sky Lantern Promise 🏮",
+      "subcaption": "Releasing our prayers to the highest stars, promising to grow old together."
+    }
+  ],
+  "unlocked_bonus": true
+}
