@@ -4,7 +4,7 @@ import fs from "fs";
 import { createServer as createViteServer } from "vite";
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const DB_FILE = path.join(process.cwd(), "passes-old.json");
 
 // -- DIRECT DATABASE SCHEMATICS & INITIALIZERS --
